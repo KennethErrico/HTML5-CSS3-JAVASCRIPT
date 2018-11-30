@@ -1,0 +1,92 @@
+<!--
+		Kenneth Errico
+		5/8/2017
+		Final Project
+		Web Development I
+		
+		Index page uses HTML tags like <p> <list> etc...
+		uses hyperlinks and email links
+		uses CSS with Classes and ID's
+		uses Embedded and Inline CSS
+		uses Images with proper accessability and RWD layout
+		uses JavaScript
+		uses Table
+		uses Forms
+ -->
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<title>kjgray.tk</title>
+	<meta charset="utf-8">
+	<link href="kjgray.css" rel="stylesheet">
+		<!--[if lt IE 9]>
+		<script src="http://html5shim.googlecode.com/svn/trunk/html5.js">
+		</script>
+		<![endif]-->
+</head>
+
+<body>
+	<div style="text-align:center">
+	<header><h1>KJ Gray Plumbing & Heating LLC</h1></header>
+		<h3>Kevin Gray: Master Plumber / NH License # 4836</h3>
+		
+		<div style="padding-bottom:30px;">14 Aruda RD Sandown, NH 03873<br><br>
+			<!-- adds number for use with mobile phone -->
+			<a id="mobile" href="tel:603-489-9253"></a>
+			<span id="desktop"><strong>(603)-489-9253</strong></span>
+		</div>	
+			<nav>
+				<a href="index.html">| Home</a> &nbsp; 
+				<a href="about.html"> | About</a> &nbsp; 
+				<a href="specialprojects.html"> | Special Projects</a> &nbsp;
+				<a href="recommendedretailers.html"> | Recommended Retailers</a> &nbsp; 
+				<a href="contact.html"> | Contact</a> 
+			</nav>
+	
+<main>
+		<h1><strong>FREE ESTIMATES</strong></h1><br>
+			<div class="slideshow-container">
+				<div class="mySlides fade">
+				<img src="wallmountboilerheatingsystem.jpg" style="width:53%" alt="Complex Custom Homes">
+				<div class="text" style="padding-bottom:30px; padding-top:10px;">Specializing In Complex Custom Homes</div>
+				</div>
+
+				<div class="mySlides fade">
+				<img src="radientfloor.jpg" style="width:53%" alt="Radient Floor Heating">
+				<div class="text" style="padding-bottom:30px; padding-top:10px;">Radient Floor Heating</div>
+				</div>
+
+				<div class="mySlides fade">
+				<img src="watertreatment2.jpg" style="width:53%" alt="Water Treatment">
+				<div class="text" style="padding-bottom:30px; padding-top:10px;">Water Treatment</div>
+			</div>
+		</div>
+	
+
+	<script>
+		var slideIndex = 0;
+		showSlides();				
+		function showSlides()
+		{
+			var i;
+			var slides = document.getElementsByClassName("mySlides");
+			for (i = 0; i < slides.length; i ++)
+			{
+				slides[i].style.display = "none";
+			}
+			slideIndex++;
+			if (slideIndex > slides.length){slideIndex = 1;}
+			slides[slideIndex-1].style.display = "block";			
+			setTimeout(showSlides, 5000);
+		}
+	</script>
+</main>	
+<footer style="padding-bottom:18px;">
+		<i>Copyright &copy;  2017 KJ Gray Plumbing & Heating</i>&nbsp;
+		<a href="mailto:kjgrayplumbing@gmail.com">kjgrayplumbing@gmail.com</a>
+</footer>
+	</div>
+</body>
+</html>

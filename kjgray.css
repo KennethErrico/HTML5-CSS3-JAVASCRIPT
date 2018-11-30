@@ -1,0 +1,164 @@
+/*
+		Ken Errico
+		5/8/2017
+		Final Project
+		Web Development I
+		
+		CSS page uses custom classes and ID's that are explained as they appear
+ */
+*{box-sizing: border-box;}
+
+body
+{
+	background-image: url("25backgroundpipes.jpg");
+	background-repeat: x,y;
+	font-family: Times New Roman;
+	width: 100%;
+	margin: auto;
+	display: block;
+}
+main
+{
+	margin: auto;
+	float: center;
+	display: block;
+}
+header
+{
+	font-size: 1.5em;
+}
+nav
+{
+	text-align: center;
+	color: #000000;
+	border-bottom: solid;
+	border-top: solid;
+}
+nav a
+{
+	color: #000000;
+	text-decoration: none;
+	font-size: 1.2em;
+}
+nav a:hover
+{
+	color: #ff0000;
+}
+ul
+{
+	list-style-type: none;
+}
+.floatleft
+{
+	float: left;
+}
+.floatright
+{
+	float: right;
+}
+figcaption
+{
+	padding-top: 70px;	
+}
+.mySlides
+{
+	display: none;
+}
+.text
+{
+  color: #000000;
+  font-size: 25px;
+  text-align: center;
+}
+.fade
+{
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+.center
+{
+	margin: auto;
+	width: 50%;
+}
+form
+{
+	padding: 2em;
+}
+/*configures contact form*/
+label
+{
+	float: left;
+	display: block;
+	text-align: right;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea
+{
+	display: block;
+	margin-bottom: 1em;
+}
+#mySubmit
+{
+	margin-left: 9.5em;
+}
+table
+{
+	margin: auto;
+	font-size: 1.2em;
+}
+header, nav, main, footer {	display: block;}
+/*configures id's to create number for mobile phone use*/
+#mobile		{display: none;}
+#desktop	{display: inline;}
+/*media query for tablet task 6 ex1-2 A-J sets css for tablet view only*/
+@media only screen and (max-width: 1024px) 
+/*media query for mobile phone task 7 ex1-2 A-K sets css for tablet view only*/
+@media only screen and (max-width: 768px)
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		
