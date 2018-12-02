@@ -7,7 +7,7 @@ This is by far my favorite piece of work done so far. The assignment was to crea
 fully functioning site using a combination of HTML5, CSS3, and JAVASCRIPT. My good friend
 and master plumber had no web presence at all. I interviewed him about what he would like 
 to showcase, his company colors, and collected many pictures of his projects. This is the
-result (a zip file containing the actual pictures is available upon request).
+result. A zip file containing the actual pictures is available upon request.
 
 
 CSS
